@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "name": "Sadia",
+        "department": "CSE",
+        "email": "sadia@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Ravib",
+        "department": "cse",
+        "email": "ravib@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Nafiz",
+        "department": "cse",
+        "email": "nafiz@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "Nahid",
+        "department": "cse",
+        "email": "nahid@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Sajib",
+        "department": "bba",
+        "email": "sajib@gmail.com"
+    },
+    {
+        "id": 6,
+        "name": "Ayat",
+        "department": "bba",
+        "email": "ayat@gmail.com"
+    },
+    {
+        "id": 7,
+        "name": "Azan",
+        "department": "cse",
+        "email": "azan@gmail.com"
+    },
+    {
+        "id": 8,
+        "name": "Samir",
+        "department": "MBBS",
+        "email": "samir@gmail.com"
+    },
+    {
+        "id": 9,
+        "name": "Rahin",
+        "department": "MBBS",
+        "email": "rahin@gmail.com"
+    },
+    {
+        "id": 10,
+        "name": "Raif",
+        "department": "eee",
+        "email": "raif@gmail.com"
+    },
+    {
+        "id": 11,
+        "name": "Rain",
+        "department": "eee",
+        "email": "rain@gmail.com"
+    },
+    {
+        "id": 12,
+        "name": "Rahman",
+        "department": "bba",
+        "email": "rahman@gmail.com"
+    },
+    {
+        "id": 13,
+        "name": "Kamal",
+        "department": "bba",
+        "email": "kamal@gmail.com"
+    },
+    {
+        "id": 14,
+        "name": "Bahar",
+        "department": "math",
+        "email": "bahar@gmail.com"
+    },
+    {
+        "id": 15,
+        "name": "Jony",
+        "department": "math",
+        "email": "jony@gmail.com"
+    },
+    {
+        "id": 16,
+        "name": "Afrin",
+        "department": "MBBS",
+        "email": "afrin@gmail.com"
+    },
+    {
+        "id": 17,
+        "name": "Sonda",
+        "department": "MBBS",
+        "email": "sonda@gmail.com"
+    },
+    {
+        "id": 18,
+        "name": "Faisal",
+        "department": "MBBS",
+        "email": "faisal@gmail.com"
+    },
+    {
+        "id": 19,
+        "name": "Rahat",
+        "department": "MBBS",
+        "email": "rahat@gmail.com"
+    },
+    {
+        "id": 20,
+        "name": "Ifty",
+        "department": "bba",
+        "email": "ifty@gmail.com"
+    },
+    {
+        "id": 21,
+        "name": "Nahian",
+        "department": "cse",
+        "email": "nahian@gmail.com"
+    },
+    {
+        "id": 22,
+        "name": "amimul",
+        "department": "cse",
+        "email": "amimul@gmail.com"
+    },
+    {
+        "id": 23,
+        "name": "Sony",
+        "department": "math",
+        "email": "sony@gmail.com"
+    },
+    {
+        "id": 24,
+        "name": "Akib",
+        "department": "CSE",
+        "email": "akib@gmail.com"
+    },
+    {
+        "id": 25,
+        "name": "amimul",
+        "department": "cse",
+        "email": "amimul@gmail.com"
+    },
+    {
+        "id": 26,
+        "name": "Tazmir",
+        "department": "math",
+        "email": "tazmir@gmail.com"
+    },
+    {
+        "id": 27,
+        "name": "Sadia",
+        "department": "CSE",
+        "email": "sadia@gmail.com"
+    }
+]

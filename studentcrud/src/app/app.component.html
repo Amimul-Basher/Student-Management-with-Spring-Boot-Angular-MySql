@@ -1,0 +1,56 @@
+<div class="container">
+  <form #userForm="ngForm">
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Name</label>
+      <input type="text" 
+      class="form-control" 
+      id="exampleInputEmail1" 
+      placeholder="Enter Name"
+      name="name"
+      [(ngModel)]="bindingStudent.name"
+      required
+      #name = "ngModel"
+      [class.is-invalid]="name.invalid && name.touched"
+      >
+      <small class="text-danger" [class.d-none]="name.valid || name.untouched">Name is required</small>
+      
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Department</label>
+      <input type="text" 
+      class="form-control" 
+      id="exampleInputEmail1" 
+      placeholder="Enter Department"
+      name="department"
+      [(ngModel)]="bindingStudent.department"
+      required
+      #department = "ngModel"
+      [class.is-invalid]="department.invalid && department.touched"
+      >
+      <small class="text-danger" [class.d-none]="department.valid || name.untouched">Department name is required</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" 
+      class="form-control" 
+      id="exampleInputEmail1" 
+      placeholder="Enter   Email"
+      name="email"
+      [(ngModel)]="bindingStudent.email"
+      required
+      #email = "ngModel"
+      [class.is-invalid]="email.invalid && email.touched"
+      >
+      <small class="text-danger" [class.d-none]="email.valid || name.untouched">Email Address is required</small>
+    </div>
+    <br>
+    
+    <button [disabled]="userForm.form.invalid" *ngIf="!isEdit" type="button" class="btn btn-primary" (click)="addStudent(userForm)">Submit</button>
+    <button [disabled]="userForm.form.invalid" *ngIf="isEdit" class="btn btn-primary" (click)="updateStudent(userForm)">Update</button>
+
+  </form>
+
+</div>
+
+<hr />
+<app-detailstudent (sendToParent)="receiveStudent($event)"></app-detailstudent>

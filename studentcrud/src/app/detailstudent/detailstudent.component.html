@@ -1,0 +1,25 @@
+<div class="container">
+  <table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Department</th>
+      <th scope="col">Email Address</th>
+      <th scope="col">Edit</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor= "let student of allStudents | paginate: { itemsPerPage: 5, currentPage: page }">
+      
+      <td>{{student.name}}</td>
+      <td>{{student.department}}</td>
+      <td>{{student.email}}</td>
+      <td><button (click)="updateStudent(student)" class="btn btn-primary">Edit</button></td>
+      <td><button (click)="deleteStudent(student)" class="btn btn-danger">Delete</button></td>
+    </tr>
+    
+  </tbody>
+</table>
+<pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
